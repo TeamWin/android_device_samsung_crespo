@@ -33,3 +33,11 @@ ARCH_ARM_HAVE_ARMV7A_BUG := true
 
 # Use the parts that are common between all crespos
 include device/samsung/crespo/BoardConfigCommon.mk
+BOARD_HAS_LARGE_FILESYSTEM := true
+BOARD_HAS_NO_REAL_SDCARD := true
+DEVICE_RESOLUTION := 480x800
+SP1_NAME := "efs"
+SP1_DISPLAY_NAME := "EFS"
+SP1_BACKUP_METHOD := files
+SP1_MOUNTABLE := 1
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
