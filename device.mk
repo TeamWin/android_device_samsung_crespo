@@ -41,7 +41,8 @@ PRODUCT_COPY_FILES := \
 # GPS config
 PRODUCT_COPY_FILES += \
         device/samsung/crespo/gps.xml:system/vendor/etc/gps.xml \
-        device/samsung/crespo/gps.conf:system/etc/gps.conf
+        device/samsung/crespo/gps.conf:system/etc/gps.conf \
+        device/samsung/crespo/twrp.fstab:recovery/root/etc/twrp.fstab
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_network=3

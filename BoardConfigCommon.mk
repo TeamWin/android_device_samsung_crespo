@@ -129,3 +129,7 @@ BOARD_SEPOLICY_UNION += \
     pvrsrvinit.te \
     rild.te
 
+BOARD_HAS_NO_REAL_SDCARD := true
+DEVICE_RESOLUTION := 480x800
+TW_NO_SCREEN_BLANK := true
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/s3c-usbgadget/gadget/lun0/file
